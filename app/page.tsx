@@ -43,7 +43,7 @@ export default function Home() {
             </ScrollAnimation>
 
             <ScrollAnimation direction="up" delay={1000}>
-              <div className="mt-8 p-4 bg-gray-900 rounded-lg border border-gray-700 max-w-md mx-auto">
+              <div className="mt-8 max-w-md mx-auto">
                 <p className="text-gray-400 text-sm mb-2">Contract Address:</p>
                 <p className="text-blue-400 font-mono text-lg">Coming Soon</p>
               </div>
