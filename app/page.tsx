@@ -160,16 +160,22 @@ export default function Home() {
             <ScrollAnimation direction="up" delay={600}>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
                 <Button
+                  asChild
                   variant="outline"
                   className="bg-white text-black hover:bg-gray-100 hover:transform hover:scale-105 px-6 py-3 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto min-h-[44px]"
                 >
-                  X
+                  <a href="https://x.com/dragonbase_" target="_blank" rel="noopener noreferrer">
+                    X
+                  </a>
                 </Button>
                 <Button
+                  asChild
                   variant="outline"
                   className="bg-white text-black hover:bg-gray-100 hover:transform hover:scale-105 px-6 py-3 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto min-h-[44px]"
                 >
-                  TELEGRAM
+                  <a href="https://t.me/dragonbasee" target="_blank" rel="noopener noreferrer">
+                    TELEGRAM
+                  </a>
                 </Button>
                 <Button className="bg-blue-600 text-white hover:bg-blue-700 hover:transform hover:scale-105 px-6 py-3 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto min-h-[44px]">
                   Buy $DRAGON on Ape Store
