@@ -12,7 +12,7 @@ export default function Home() {
             <ScrollAnimation direction="fade" delay={200}>
               <div className="flex justify-center mb-8">
                 <Image
-                  src="/images/dragon-hero.avif"
+                  src="/images/dragon-hero.png"
                   alt="DragonBase Dragon"
                   width={200}
                   height={200}
@@ -100,7 +100,7 @@ export default function Home() {
             <ScrollAnimation direction="left" delay={400}>
               <div className="flex justify-center lg:justify-start">
                 <Image
-                  src="/images/dragon-treasury.avif"
+                  src="/images/dragon-treasury.png"
                   alt="DragonBase Treasury Dragon"
                   width={400}
                   height={400}
@@ -131,7 +131,7 @@ export default function Home() {
             <ScrollAnimation direction="fade" delay={200}>
               <div className="flex justify-center mb-8">
                 <Image
-                  src="/images/dragon-dark.avif"
+                  src="/images/dragon-dark.png"
                   alt="DragonBase Dragon"
                   width={150}
                   height={150}
