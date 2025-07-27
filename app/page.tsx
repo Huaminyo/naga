@@ -41,6 +41,13 @@ export default function Home() {
                 <p className="text-gray-300 text-lg">Join the hoard. Breathe fire with us.</p>
               </div>
             </ScrollAnimation>
+
+            <ScrollAnimation direction="up" delay={1000}>
+              <div className="mt-8 p-4 bg-gray-900 rounded-lg border border-gray-700 max-w-md mx-auto">
+                <p className="text-gray-400 text-sm mb-2">Contract Address:</p>
+                <p className="text-blue-400 font-mono text-lg">Coming Soon</p>
+              </div>
+            </ScrollAnimation>
           </div>
         </div>
       </section>
