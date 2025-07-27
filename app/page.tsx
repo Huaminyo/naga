@@ -47,7 +47,9 @@ export default function Home() {
             <ScrollAnimation direction="up" delay={1000}>
               <div className="mt-6 md:mt-8 max-w-md mx-auto px-4">
                 <p className="text-gray-400 text-xs sm:text-sm mb-2">Contract Address:</p>
-                <p className="text-blue-400 font-mono text-sm sm:text-base md:text-lg break-all">Coming Soon</p>
+                <p className="text-blue-400 font-mono text-xs sm:text-sm md:text-base break-all">
+                  0x216b19c4818066164d0eca7b1c7532ca1a45c9c4
+                </p>
               </div>
             </ScrollAnimation>
           </div>
@@ -177,8 +179,17 @@ export default function Home() {
                     TELEGRAM
                   </a>
                 </Button>
-                <Button className="bg-blue-600 text-white hover:bg-blue-700 hover:transform hover:scale-105 px-6 py-3 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto min-h-[44px]">
-                  Buy $DRAGON on Ape Store
+                <Button
+                  asChild
+                  className="bg-blue-600 text-white hover:bg-blue-700 hover:transform hover:scale-105 px-6 py-3 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto min-h-[44px]"
+                >
+                  <a
+                    href="https://ape.store/base/0x216b19c4818066164d0eca7b1c7532ca1a45c9c4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Buy $DRAGON on Ape Store
+                  </a>
                 </Button>
               </div>
             </ScrollAnimation>
